@@ -25,10 +25,10 @@ A web application that analyzes YouTube video comments and classifies them as **
 
 youtube-sentiment-analyzer/
 │
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
+├
+│── index.html
+│── style.css
+│── script.js
 │
 ├── backend/
 │ ├── app.py
