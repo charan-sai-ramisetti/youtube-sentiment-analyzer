@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Sentiment Analyzer</title>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="badge">Online Learning Feedback Analysis Using YouTube Comments</div>
+
+    <h1>Analyze Comments</h1>
+    <p>Paste a YouTube video link to analyze sentiment</p>
+
+    <div class="card">
+        <input 
+            type="text" 
+            id="url" 
+            placeholder="Paste YouTube video link here"
+        >
+
+        <button onclick="analyze()">Analyze</button>
+
+        <p id="status"></p>
+
+        <canvas id="sentimentChart"></canvas>
+    </div>
+
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
